@@ -12,8 +12,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "client": "^0.0.1",
     "dotenv": "^16.4.5",
+    "express": "^4.21.1",
     "octokit": "^4.0.2",
     "smee": "^0.2.0",
     "webhook_testes": "file:"
