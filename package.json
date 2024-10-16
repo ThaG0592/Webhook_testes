@@ -1,18 +1,24 @@
 {
-  "dependencies": {
-    "client": "^0.0.1",
-    "dotenv": "^16.4.5",
-    "smee": "^0.2.0",
-    "smee-client": "^2.0.3"
-  },
   "name": "webhook_testes",
   "version": "1.0.0",
   "description": "Webhook para testes",
   "main": "smee.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node app.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "client": "^0.0.1",
+    "dotenv": "^16.4.5",
+    "octokit": "^4.0.2",
+    "smee": "^0.2.0",
+    "webhook_testes": "file:"
+  },
+  "devDependencies": {
+    "smee-client": "^2.0.3"
+  }
 }
